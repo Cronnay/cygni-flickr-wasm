@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Flickr Gallery</title>
+</head>
+
+<body>
+    <div class="top-bar">
+        <header>
+            <h1>Flickr Gallery</h1>
+        </header>
+        <div id="toploader" class="loader"></div>
+        <form>
+            <input type="text" class="cat-input" placeholder="Search for something else..." />
+            <button class="cat-button" type="submit">></button>
+        </form>
+    </div>
+    <div class="main-container">
+        <div class="image-container">
+            <div id="gridRow" class="row">
+            </div>
+            <img id="currentImage"> </img>
+            <div class="current-image-title">
+                <span id="currentImageTitle"></span>
+            </div>
+
+        </div>
+    </div>
+    <div id="botloader" class="loader"></div>
+    <script src="./bootstrap.js"></script>
+</body>
+</html> 
